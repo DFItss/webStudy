@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300;400;500;700&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Quicksand','Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: #5c5c5c;
+    font-size: 12px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-img {
+    width: 477px;
+    height: 373px;
+}
