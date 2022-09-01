@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github-copy</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div class="header-logo">
+                <a href="#"><img src="images/header/header-logo.png" alt="header-logo"></a>
+            </div>
+            <div class="header-menu-box">
+                <div>
+                    <input type="text" class="header-input" placeholder="Search or jump to...">
+                </div>
+                <nav>
+                    <a class="header-menu-list" href="#">Pull requests</a>
+                    <a class="header-menu-list" href="#">Issues</a>
+                    <a class="header-menu-list" href="#">Marketplace</a>
+                    <a class="header-menu-list" href="#">Explore</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header-icon">
+            <a href="#"><img src="images/header/left-icon.png" alt="#"></a>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="subhead">
+                <h1>Create a new repository</h1>
+                <div>
+                    <p>A repository contains all project files, including the revision history. Already have a project repository elsewhere?</p>
+                    <a href="#">Import a repository.</a>
+                </div>
+            </div>
+            <div class="owner-repository-description-box">
+                <div class="owner-repository-box">
+                    <div class="owner-box">
+                        <label class="owner-box-label" for="">Owner</label>
+                        <div class="details-box">
+                            userId
+                        </div>
+                    </div>
+                    <span>/</span>
+                    <div class="repository-box">
+                        <label class="repository-box-label" for="">Repository name</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <p>Great repository names are short and memorable. Need inspiration? How about <a href="#" style="color: rgb(73, 207, 73); text-decoration: none;">crispy-robot?</a></p>
+                </div>
+                <div class="description-box">
+                    <label for="">Description<span> (optional)</span></label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="public-private-option">
+                <div class="public-option">
+                    <div class="public-option-check">
+                        <input type="radio" name="radio" checked>
+                        <img src="images/main/radio-icon-public.png" alt="pubic-icon">
+                    </div>
+                    <div class="public-option-text">
+                        <label for="">
+                            Public
+                        </label>
+                        <span>Anyone on the internet can see this repository. You choose who can commit.</span>
+                    </div>
+                </div>
+                <div class="private-option">
+                    <div class="private-option-check">
+                        <input type="radio" name="radio">
+                        <img src="images/main/radio-icon-private.png" alt="pubic-icon">
+                    </div>
+                    <div class="private-option-text">
+                        <label for="">
+                            Private
+                        </label>
+                        <span>You choose who can see and commit to this repository.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="repository-auto-init-options">
+                <div class="initialize-box">
+                    <h3>Initialize this repository with:</h3>
+                    <p>Skip this step if you’re importing an existing repository.</p>
+                </div>
+                <div>
+                    <div class="readme-option-box">
+                        <input type="checkbox" name="readme">
+                        <div>
+                            <label for="readme">Add a README file</label>
+                            <span>This is where you can write a long description for your project. <a href="#">Learn more.</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gitignore-option-box">
+                    <h4>Add .gitignore</h4>
+                    <div>
+                        <span>Choose which files not to track from a list of templates.<a href="#">Learn more.</a></span>
+                    </div>
+                    <div class="details-box1">
+                        .gitignore template: None
+                    </div>
+                </div>
+                <div class="license-option-box">
+                    <h4>Choose a license</h4>
+                    <div>
+                        <span>A license tells others what they can and can't do with your code.<a href="#">Learn more.</a></span>
+                    </div>
+                    <div class="details-box2">
+                        Licensee: None
+                    </div>
+                </div>
+                <p>This will set  main as the default branch. Change the default name in your settings.</p>
+
+                <div class="repository-option-bottom">
+                    <img src="images/footer/footer-icon.png" alt="">
+                    <span>You are creating a public repository in your personal account.</span>
+                </div>
+
+                <button class="create-btn">Create repository</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-menu-box">
+            <ul class="footer-menu-logo">
+                <li>
+                    <a href="">
+                        <img src="images/footer/footer-logo.png" alt="footer-logo">
+                    </a>
+                    <span>© 2022 GitHub, Inc.</span>
+                </li>
+            </ul>
+            <ul class="footer-menu-list">
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Security</li>
+                <li>Status</li>
+                <li>Docs</li>
+                <li>Contact GitHub</li>
+                <li>Pricing</li>
+                <li>API</li>
+                <li>Training</li>
+                <li>Blog</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+header div {
+    margin-right: 16px;
+}
+.header-box{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.header-input{
+    width: 272px;
+    border: 1px solid rgb(48, 54, 61);
+    background-color: rgb(13, 17, 23) !important;
+}
+.header-input:focus{
+    width: 500px;
+    border: 1px solid rgb(48, 54, 61) !important;
+    box-shadow: none !important;
+    background-color: rgb(22, 27, 34);
+    transition-duration: 0.3s;
+}
+.header-menu-box{
+    display: flex;
+    align-items: center;
+}
+.header-menu-box nav a{
+    color: #f0f6fc;
+    margin-right: 16px;
+    text-decoration: none;
+
+    font-weight: 400;
+    
+}
+.header-menu-box nav a:hover{
+    color: rgb(186, 187, 189);
+}
+
+
+
+
+
+
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 768px;
+    padding: 0px 32px;
+    margin: 40px auto;
+}
+.main-container h1{
+    color: #c9d1d9;
+}
+.main-container label{
+    color: #c9d1d9;
+}
+
+
+.subhead{
+    margin: 0 0 8px;
+    padding: 0 0 16px;
+    border-bottom: 1px solid #21262d;
+
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+
+.owner-repository-description-box {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    width: 100%;
+}
+.owner-repository-description-box p{
+    margin: 8px 0px;
+    color: #c9d1d9;
+}
+
+.owner-repository-box{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.details-box{
+    padding: 5px 16px;
+    background-color: rgb(33, 38, 45);
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    color: #c9d1d9;
+}
+
+.owner-repository-box label{
+    margin-bottom: 6px;
+}
+.owner-repository-box label::after{
+    content: " *";
+    color: red;
+    
+}
+.owner-repository-box span{
+    height: 100%;
+    margin: 4px 8px 0px;
+    padding: 24px 0 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #c9d1d9;
+    
+}
+
+.repository-box {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.description-box {
+
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0 0 8px;
+}
+.description-box label {
+    margin-bottom: 8px;
+}
+
+.public-private-option{
+    width: 100%;
+    border-top: 1px solid #21262d;
+    border-bottom:  1px solid #21262d;
+    padding: 8px 0px;
+}
+.public-private-oprion label{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.public-option{
+    display: flex;
+    align-items: center;
+
+    margin: 15px 0px;
+    width: 100%;
+}
+.public-option-check{
+    display: flex;
+    align-items: center;
+    width: 45px;
+    justify-content: space-between;
+    margin-right: 6px;
+}
+
+.public-option-text{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.private-option{
+    display: flex;
+    align-items: center;
+
+    margin: 15px 0px;
+    width: 100%;
+}
+.private-option-check{
+    display: flex;
+    align-items: center;
+    width: 45px;
+    justify-content: space-between;
+    margin-right: 6px;
+}
+.private-option-text{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.repository-auto-init-options{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.details-box1{
+    width: 180px;
+    padding: 5px 16px;
+    background-color: rgb(33, 38, 45);
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #c9d1d9;
+}
+.details-box2{
+    width: 120px;
+    padding: 5px 16px;
+    background-color: rgb(33, 38, 45);
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #c9d1d9;
+}
+.initialize-box{
+    margin: 15px 0px;
+}
+.initialize-box h3, label, h4{
+    color: #c9d1d9;
+    font-size: 14px;
+}
+
+.readme-option-box{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.readme-option-box > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.gitignore-option-box{
+    margin-bottom: 16px;
+}
+.license-option-box {
+    margin-bottom: 16px;
+}
+
+.repository-option-bottom{
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px 0px;
+    border-top: 1px solid #21262d;
+    border-bottom: 1px solid #21262d;
+}
+
+.create-btn{
+    width: 143px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 16px;
+    background-color: #23863699;
+    border: 1px solid #23863699;
+    border-radius: 6px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.footer-menu-box {
+    display: flex;
+    align-items: center;
+
+    border-top: 1px solid #21262d;
+
+    padding: 40px 0;
+
+    width: 980px;
+}
+.footer-menu-box ul li{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.footer-menu-logo ul{
+    display: flex;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+}
+footer ul li{
+    color: #58A6FF;
+}
+
+.footer-menu-logo {
+    width: 16%;
+}
+
+.footer-menu-list {
+    width: 66.4%;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
